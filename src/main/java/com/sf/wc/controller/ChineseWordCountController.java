@@ -42,6 +42,7 @@ public class ChineseWordCountController {
 		list.subList(0, 9);		
 		
 		mv.addObject("list", list);
+		mv.setViewName("index");
 		return mv;
 	}
 }

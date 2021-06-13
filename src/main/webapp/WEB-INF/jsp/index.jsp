@@ -30,7 +30,7 @@ window.result = 'wordcount/result';
 	       <th>个数</th>
 	      </tr>
 	    </thead>
-		<c:forEach var="wm" items="wordMap">
+		<c:forEach var="wm" items="list">
 		<tr>
 		  <td><c:out value="${wm.key }" /> </td>
 		  <td><c:out value="${wm.value }" /></td>
